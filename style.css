@@ -43,7 +43,10 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: purple;
+  color: white;
+}
+.past textarea {
   color: white;
 }
 
@@ -63,6 +66,8 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  float: right;
+  height: 100%;
 }
 
 .saveBtn i:hover {
@@ -76,4 +81,33 @@ table, th, td {
   padding: 15px;
   position: relative;
   left: 180px;
+}
+
+.time {
+  background-color: yellow;
+  border: 1px solid gray;
+  font-size: 30px;
+  font-family: fantasy
+}
+
+/* .content {
+  background-color: gray;
+  color: white;
+} */
+
+.content:hover textarea {
+    display: inline;
+}
+
+.row {
+  border: 0.5px solid black;
+  margin-bottom: 1px;
+}
+
+textarea {
+  border: none;
+  scroll-behavior: unset;
+  display: none;
+  width: 800px;
+  height: 75px;
 }
